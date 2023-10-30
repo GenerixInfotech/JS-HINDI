@@ -27,3 +27,7 @@ const myObj ={
 const myFun = function (){
     console.log("Hello World");
 }
+
+
+// ============+++++++++++++++++++++++++===================
+// Stack Memory (Primitives Datatype), Heap Memory (Non-Primitives Datatype)
