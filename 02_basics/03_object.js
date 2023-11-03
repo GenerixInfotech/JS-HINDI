@@ -15,10 +15,20 @@ const jsUser ={
 
 }
 
-console.log(jsUser.email);
-console.log(jsUser["email"]);
-console.log(jsUser["full name"]);
-console.log(jsUser[mySmy]);
+// console.log(jsUser.email);
+// console.log(jsUser["email"]);
+// console.log(jsUser["full name"]);
+// console.log(jsUser[mySmy]);
 
-Object.freeze(jsUser)
-console.log(jsUser);
+// Object.freeze(jsUser)
+// console.log(jsUser);
+
+jsUser.greeting = function () {
+    console.log("Hello js Users");
+}
+
+jsUser.greetingTwo = function () {
+    console.log(`Hello js Users, ${this.name}`);
+}
+console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());
