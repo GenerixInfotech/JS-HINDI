@@ -6,4 +6,9 @@ function sayName(){
     console.log("S");
     console.log("H");
 }
-sayName()
+// sayName()
+
+function addTwoNumbers(num1, num2) {
+    console.log(num1 + num2);
+}
+addTwoNumbers(6, 5)
