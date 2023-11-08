@@ -23,8 +23,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 // ************* Opration ********** 
 let value = 3
@@ -55,8 +55,8 @@ let str3 = str1 + str2
 
 
 
-console.log('("3" - "1") = ' + ("3" - "1"));
-console.log('("3" - 1) = ' + ("3" - 1));
-console.log('("3" * "2") = ' + ("3" * "2"));
-console.log('("3" % "2") = ' + ("3" % "2"));
-console.log('("3" + null) = ' + ("3" + null));
+// console.log('("3" - "1") = ' + ("3" - "1"));
+// console.log('("3" - 1) = ' + ("3" - 1));
+// console.log('("3" * "2") = ' + ("3" * "2"));
+// console.log('("3" % "2") = ' + ("3" % "2"));
+// console.log('("3" + null) = ' + ("3" + null));

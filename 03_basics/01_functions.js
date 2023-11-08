@@ -11,4 +11,4 @@ function sayName(){
 function addTwoNumbers(num1, num2) {
     console.log(num1 + num2);
 }
-addTwoNumbers(6, 5)
+addTwoNumbers("6", 5)
