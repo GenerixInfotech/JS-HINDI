@@ -21,4 +21,14 @@ function one() {
 
     two()
 }
-one()
+// one()
+
+if(true) {
+    const username = "Mehul"
+    if(username === "Mehul") {
+        const website = "Youtube"
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
