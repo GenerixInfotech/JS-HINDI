@@ -45,6 +45,6 @@ const dotCreator = () => {
 
 //.................. Method 02 .................................
 const addTwo = (num1, num2) => (num1 + num2)
-// NOTE:- If your use parintheses then you NOT use RETURN keywords in function.
+// NOTE:- If your use parentheses then you NOT use RETURN keywords in function.
 
 console.log(addTwo(3, 4));
