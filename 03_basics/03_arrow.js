@@ -44,7 +44,22 @@ const dotCreator = () => {
 // const addTwo = (num1, num2) => num1 + num2
 
 //.................. Method 02 .................................
-const addTwo = (num1, num2) => (num1 + num2)
+// const addTwo = (num1, num2) => (num1 + num2)
 // NOTE:- If your use parentheses then you NOT use RETURN keywords in function.
 
+//.................. Method 03 .................................
+const addTwo = (num1, num2) => ({username:"Binu"})
+// NOTE:- When you want to return object you should use parentheses.
+
 console.log(addTwo(3, 4));
+
+const myArry = [2,4,6,8,9]
+
+// Method 01
+myArry.forEach(function () {}) 
+
+// Method 02
+myArry.forEach(() => {})
+
+// Method 03
+myArry.forEach(() => ())
