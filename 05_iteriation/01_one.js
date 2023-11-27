@@ -18,8 +18,27 @@ for (let i = 1; i <= 10; i++) {
 }
 
 const myArry = ["flash","batman","superman"]
-console.log(myArry.length);
+// console.log(myArry.length);
 for (let index = 0; index < myArry.length; index++) {
     const element = myArry[index];
-    console.log(element);
+    // console.log(element);
+}
+
+// break & continue
+
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 5) {
+//         console.log("Deducate value 5");
+//         break
+//     }
+//     console.log(`Value of i is ${index}`);
+    
+// }
+for (let index = 1; index <= 20; index++) {
+    if (index == 5) {
+        console.log("Deducate value 5");
+        continue
+    }
+    console.log(`Value of i is ${index}`);
+    
 }
