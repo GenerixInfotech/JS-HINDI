@@ -1,7 +1,7 @@
 // Method ### 1
 const promisesNew = new Promise(function (resolve, reject){
     // Do an Async Task
-    // Do calls, cryptography, network
+    // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is complete')
         resolve()
